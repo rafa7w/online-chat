@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:online_chat/text_composer.dart';
 
 class ChatScreen extends StatefulWidget {
   const ChatScreen({Key? key}) : super(key: key);
@@ -15,6 +16,7 @@ class _ChatScreenState extends State<ChatScreen> {
         title: const Text('Olá'),
         elevation: 0,
       ),
+      body: const TextComposer(),
     );
   }
 }
