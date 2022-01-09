@@ -50,6 +50,7 @@ app.*.map.json
 /ios/
 
 # Other files
+/lib/dbconfig.dart
 /web/
 /test/
 analysis_options.yaml
